@@ -1,5 +1,5 @@
 from jsonparser import JSONParser
-from traveladvisory.travel_advisory_parser import TravelAdvisoryParser
+from traveladvisoryexample.travel_advisory_parser import TravelAdvisoryParser
 
 url = "https://www.travel-advisory.info/api"
 
