@@ -2,7 +2,8 @@ class TravelAdvisory:
     def __init__(self, Advisory):
         self.score = Advisory['score']
         self.message = Advisory['message']
-            
+
+
 class TravelAdvisoryParser:
     
     def __init__(self, api_data):
@@ -34,7 +35,3 @@ class TravelAdvisoryParser:
     def get_travel_message(self, country_code):
         country_travel_advisory = self.get_travel_advisory(country_code)
         return country_travel_advisory.message
-        
-      
-            
-            
